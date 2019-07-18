@@ -1,0 +1,29 @@
+body{
+	background:#000;
+}
+.conteudo{
+	margin-top:35vh;
+}
+.div-dthr img{
+	width:2vw;
+	margin-left:0px;
+	margin-right: 0px
+}
+#data{
+	text-align:right;
+}
+#horario{
+	margin-bottom:4px;
+}
+@media(max-width:767px){
+	#data{
+		text-align: center;
+	}
+	.div-dthr{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.div-dthr img{
+		width:6vw;
+	}
+}
